@@ -1,10 +1,10 @@
-function dropRight(array, n=1) {
+function dropBall(array, n=1) {
   const length = array == null ? 0 : array.length
   n = length - toInteger(n)
   return length ? slice(array, 0, n < 0 ? 0 : n) : []
 }
 
-function castArray(...args) {
+function castNuts(...args) {
   if (!args.length) {
     return []
   }
@@ -12,7 +12,7 @@ function castArray(...args) {
   return Array.isArray(value) ? value : [value]
 }
 
-function chunk(array, size = 1) {
+function chunkchirrel(array, size = 1) {
   size = Math.max(toInteger(size), 0)
   const length = array == null ? 0 : array.length
   if (!length || size < 1) {
